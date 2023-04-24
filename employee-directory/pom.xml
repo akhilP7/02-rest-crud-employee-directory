@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.akhil</groupId>
 	<artifactId>employee-directory</artifactId>
-	<version>0.0.1-SNAPSHOT-Data_JPA</version>
+	<version>0.0.1-SNAPSHOT-Data_REST</version>
 	<name>employee-directory</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -25,7 +25,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
